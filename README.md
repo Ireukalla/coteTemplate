@@ -8,15 +8,18 @@
 1 2 Str
 
 다음 코드와 같이 사용할 수 있습니다.
+
+```javascript
 let a = scanInt()
 let b = scanInt()
 let c = scanInt()
 let D = scanString()
 
-a 는 5 (number)
-b 는 1 (number)
-c 는 2 (number)
-D 는 'Str' (string)
+// a 는 5 (number)
+// b 는 1 (number)
+// c 는 2 (number)
+// D 는 'Str' (string)
+```
 
 ---
 
@@ -27,13 +30,16 @@ For example, when given an input example like:
 5
 1 2 Str
 
-you can interpret it as follows:
+you can interpret it as follows.
+
+```javascript
 let a = scanInt()
 let b = scanInt()
 let c = scanInt()
 let D = scanString()
 
-a is 5 (number)
-b is 1 (number)
-c is 2 (number)
-D is 'Str' (string)
+// a is 5 (number)
+// b is 1 (number)
+// c is 2 (number)
+// D is 'Str' (string)
+```
