@@ -23,6 +23,5 @@ const scanInt = () => {
   return intValue
 }
 
+// 'You can write the algorithm logic below this place.
 // -------------------------------------------- CODE -------------------------------------------- //
-
-console.log(typeof scanInt())
