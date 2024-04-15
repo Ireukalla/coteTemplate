@@ -1,11 +1,13 @@
 # coteTemplate
 
-### 자바스크립트를 사용하여 코딩 테스트를 수행하는 데 사용할 수 있는 템플릿을 제공합니다. `scanInt()`를 숫자로, `scanString()`을 문자열로 대체하여 사용할 수 있습니다.
+### 자바스크립트를 사용하여 코딩 테스트를 수행하는 데 사용할 수 있는 템플릿을 제공합니다. `scanInt()`를 숫자로, `scanString()`을 문자열로 대체하여 사용할 수 있으며 좌상단에서 우하단으로 순차적으로 읽습니다.
 
-예를 들어 다음과 같은 입력 값이 주어졌을 때
+예를 들어 다음과 같은 input.txt 파일이 존재할 때
 
+```
 5
 1 2 Str
+```
 
 다음 코드와 같이 사용할 수 있습니다.
 
@@ -23,12 +25,14 @@ let D = scanString()
 
 ---
 
-### Here's a template for performing coding tests using JavaScript. You can replace `scanInt()` with a number and `scanString()` with a string for usage.
+### I provide a template that can be used for performing coding tests using JavaScript. You can use scanInt() for numbers and scanString() for strings, reading sequentially from the top left to the bottom right.
 
-For example, when given an input example like:
+If you set input.txt like this
 
+```
 5
 1 2 Str
+```
 
 you can interpret it as follows.
 

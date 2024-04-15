@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const input = () => {
-  const input = fs.readFileSync('/dev/stdin').toString()
+  const input = fs.readFileSync('input.txt').toString()
   const tokens = input.split('\n').flatMap((token) => token.split(' '))
   const validTokens = tokens.filter((token) => token !== '')
 
@@ -25,3 +25,11 @@ const scanInt = () => {
 
 // 'You can write the algorithm logic below this place.
 // -------------------------------------------- CODE -------------------------------------------- //
+
+let a = scanInt()
+let b = scanInt()
+
+let c = scanInt()
+let k = scanString()
+
+console.log(a, ' ', b, ' ', c, ' ', k)
