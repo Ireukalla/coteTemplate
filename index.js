@@ -25,11 +25,3 @@ const scanInt = () => {
 
 // 'You can write the algorithm logic below this place.
 // -------------------------------------------- CODE -------------------------------------------- //
-
-let a = scanInt()
-let b = scanInt()
-
-let c = scanInt()
-let k = scanString()
-
-console.log(a, ' ', b, ' ', c, ' ', k)
